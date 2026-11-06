@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="wrap">
         <p>
-          © {new Date().getFullYear()} {perfil.nome}. Feito com React.
+          © {new Date().getFullYear()} {perfil.nome}.
         </p>
         <a href="#inicio">Voltar ao topo</a>
       </div>

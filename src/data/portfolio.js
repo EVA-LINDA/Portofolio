@@ -5,12 +5,12 @@ export const perfil = {
   cargo: 'Desenvolvedora Júnior',
   intro:
     'Crio e analiso experiências digitais que unem estratégia, tecnologia e IA para transformar boas ideias em produtos memoráveis.',
-  objetivo: 'Procuro um estágio em desenvolvimento para aprender em equipe e colocar ideias no ar.',
+  objetivo: 'Procuro desenvolvimento web ou Analise de funcionalidade e requesitosBusco oportunidades em desenvolvimento web ou análise de requisitos e funcionalidades.',
   disponivel: true, 
 }
 
 
-export const servicos = ['Direção criativa', 'Design de produto', 'Front-end']
+export const servicos = ['Direção criativa', 'Design de produto', 'Front-end', 'Analista funcional']
 
 export const contato = {
   email: 'evelynsieg1920@gmail.com',
@@ -27,14 +27,14 @@ export const sobre = {
   fatos: [
     { rotulo: 'Formação', valor: 'Engenharia de Software, UniCatólica' },
     { rotulo: 'Idiomas', valor: 'Inglês e espanhol, nível intermediário' },
-    { rotulo: 'Busco', valor: 'Trabalho em desenvolvimento web/engenharia de software'},
+    { rotulo: 'Busco', valor: 'Oportunidades em desenvolvimento web front-end ou análise de requisitos e funcionalidades'},
   ],
 }
 
 export const experiencias = [
   {
     periodo: '2026 até hoje',
-    titulo: 'Testadora de QA júnior e Auditoria financeiro',
+    titulo: 'Testadora de QA júnior para Auditoria financeiro',
     local: 'Black Contabilidade, Palmas - TO',
   },
   {
@@ -92,9 +92,11 @@ export const pilha = [
   { sigla: 'RE', nome: 'React', descricao: 'Biblioteca de interfaces' },
   { sigla: 'TW', nome: 'Tailwind CSS', descricao: 'Estrutura' },
   { sigla: 'BO', nome: 'Bootstrap', descricao: 'Componentes responsivos' },
-  { sigla: 'JQ', nome: 'jQuery', descricao: 'Interações para web' },
+  { sigla: 'SQL', nome: 'Banco de dados', descricao: 'Armazenamento de dados' },
   { sigla: 'FG', nome: 'Figma', descricao: 'Design de interfaces' },
   { sigla: 'GIT', nome: 'Git', descricao: 'Controle de versão' },
   { sigla: 'VS', nome: 'VS Code', descricao: 'Ambiente de desenvolvimento' },
   { sigla: 'TY', nome: 'TypeScript', descricao: 'Lógica e interatividade' },
+  { sigla: 'UX', nome: 'Experiência do Usuário', descricao: 'Como o produto funciona '},
+  { sigla: 'UI', nome: 'Interface do Usuário', descricao: 'Como o produto se apresenta visualmente'},
 ]
