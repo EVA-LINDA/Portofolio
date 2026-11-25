@@ -20,21 +20,27 @@ export const contato = {
 
 export const sobre = {
   paragrafos: [
-    'Estou no 4º semestre de Engenharia de Software na UniCatólica e sou técnica em informática pelo IFTO de Paraíso do Tocantins.',
-    'Trabalho com JavaScript, TypeScript e bancos de dados. Também atuo com testes de software como testadora de QA júnior, e olhar para o que pode dar errado me ajuda a escrever código mais cuidadoso.',
-    'Meu projeto mais importante até agora é o Tá na Hora, um app de apoio a idosos que ficou em 1º lugar na hackathon do IFTO e que sigo evoluindo aos poucos.',
+     'Sou estudante do 4º semestre de Engenharia de Software na UniCatólica e técnica em Informática pelo IFTO – Campus Palmas. Minha trajetória na tecnologia começou ainda no ensino médio, onde desenvolvi meu interesse por inovação e desenvolvimento de soluções digitais.',
+    
+    'Atuo com JavaScript, TypeScript e bancos de dados, além de experiência com testes de software como QA Júnior. Essa vivência contribuiu para desenvolver um olhar mais atento à qualidade, identificando possíveis falhas e buscando escrever códigos mais cuidadosos e confiáveis.',
+    
+    'Também tenho experiência com análise de funcionalidades e documentação de sistemas, acompanhando o funcionamento das soluções desde a definição dos requisitos até a validação. Gosto de compreender o projeto como um todo e colaborar para que cada funcionalidade atenda às necessidades dos usuários.',
+    
+    'Um dos projetos mais marcantes da minha trajetória é o Tá na Hora!, um aplicativo de apoio a idosos que conquistou o 1º lugar em uma hackathon do IFTO. O projeto representa meu interesse em utilizar a tecnologia para criar soluções acessíveis e com impacto positivo na vida das pessoas. Continuo aprimorando meus conhecimentos e evoluindo o projeto.'
   ],
   fatos: [
-    { rotulo: 'Formação', valor: 'Engenharia de Software, UniCatólica' },
-    { rotulo: 'Idiomas', valor: 'Inglês e espanhol, nível intermediário' },
-    { rotulo: 'Busco', valor: 'Oportunidades em desenvolvimento web front-end ou análise de requisitos e funcionalidades'},
-  ],
+    { rotulo: 'Graduando', valor: 'Engenharia de Software — UniCatólica 4 periodo' },
+    { rotulo: 'Formação técnica', valor: 'Técnica em Informática — IFTO' },
+    { rotulo: 'Idiomas', valor: 'Inglês e espanhol — nível intermediário' },
+    { rotulo: 'Interesses', valor: 'Desenvolvimento Front-end, análise de requisitos e qualidade de software' },
+    { rotulo: 'Objetivo', valor: 'Desenvolver soluções digitais inovadoras, funcionais e centradas nas pessoas' }
+  ]
 }
 
 export const experiencias = [
   {
     periodo: '2026 até hoje',
-    titulo: 'Testadora de QA júnior para Auditoria financeiro',
+    titulo: 'Analista de funcionalidade e Testadora de QA júnior para Auditoria financeiro',
     local: 'Black Contabilidade, Palmas - TO',
   },
   {
@@ -90,8 +96,6 @@ export const pilha = [
   { sigla: 'CSS', nome: 'CSS3', descricao: 'Interfaces responsivas' },
   { sigla: 'JS', nome: 'JavaScript', descricao: 'Lógica e interatividade' },
   { sigla: 'RE', nome: 'React', descricao: 'Biblioteca de interfaces' },
-  { sigla: 'TW', nome: 'Tailwind CSS', descricao: 'Estrutura' },
-  { sigla: 'BO', nome: 'Bootstrap', descricao: 'Componentes responsivos' },
   { sigla: 'SQL', nome: 'Banco de dados', descricao: 'Armazenamento de dados' },
   { sigla: 'FG', nome: 'Figma', descricao: 'Design de interfaces' },
   { sigla: 'GIT', nome: 'Git', descricao: 'Controle de versão' },
@@ -99,4 +103,5 @@ export const pilha = [
   { sigla: 'TY', nome: 'TypeScript', descricao: 'Lógica e interatividade' },
   { sigla: 'UX', nome: 'Experiência do Usuário', descricao: 'Como o produto funciona '},
   { sigla: 'UI', nome: 'Interface do Usuário', descricao: 'Como o produto se apresenta visualmente'},
+  {sigla: 'PHP', nome: ' Hypertext Preprocessor', descricao: 'linguagem de script de código aberto e de uso geral voltada ao desenvolvimento web'},
 ]
